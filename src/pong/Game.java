@@ -44,7 +44,7 @@ public class Game implements KeyListener, Runnable {
         b.setGameOver(true);
     }
 
-    public void init() {
+    private void init() {
         display = new Display(title, WIDTH, HEIGHT, this);
         canvas = display.getCanvas();
     }
